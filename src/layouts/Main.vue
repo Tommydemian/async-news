@@ -1,18 +1,12 @@
 <template>
-    <div
-    ref="main"
-    v-viewportHeight
-    class="w-full scroll-smooth overflow-y-scroll flex flex-col justify-between"
-  >
-    <div class="h-full">
-      <TheHeader :class="hideHeader ? 'hideHeader' : 'showHeader'" />
-      <main>
+    <div class="w-full scroll-smooth flex flex-col min-h-screen text-black">
+      <TheHeader/>
+      <main class="flex-1">
         <div>
           <router-view class="h-full overflow-x-hidden" />
         </div>
       </main>
       <TheFooter />
-    </div>
     </div>
 </template>
 

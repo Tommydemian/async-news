@@ -1,5 +1,5 @@
 <template>
-    <footer class="p-9 bg-slate-600 via-white">
+    <footer class="p-9 bg-slate-400 text-white">
         <div>
             [social media icons]
         </div>
